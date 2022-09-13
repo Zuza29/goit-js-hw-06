@@ -8,7 +8,7 @@ const submitForm = (event) => {
     const passwordValue = form.elements.password.value;
 
     if (!emailValue || !passwordValue) {
-        alert('All fields need to be filled')
+        alert('All fields must be filled')
     } else {
    
         const userData = {
