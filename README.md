@@ -1,1 +1,1 @@
-# goit-js-hw-06
+https://zuza29.github.io/goit-js-hw-06/
