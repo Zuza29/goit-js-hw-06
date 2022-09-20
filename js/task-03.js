@@ -21,13 +21,7 @@ if (listOfImages && listOfImages.classList) {
 }
 
 images.forEach((imageItem) => {
-  const listItem = document.createElement("li");
-  const image = document.createElement("img");
-  image.src = imageItem.url;
-  image.alt = imageItem.alt;
-  listItem.appendChild(image);
   listOfImages.insertAdjacentHTML('beforeend', `<li style="padding: 50px; list-style-type: none; display: inline;" ><img height="200" width="300" src="${imageItem.url}" alt="${imageItem.alt} "style="border: solid blue 5px"/></li>`)
-
 })
 
 
